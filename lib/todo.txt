@@ -1,0 +1,24 @@
+TODO:
+- add leaderboard for most score on infinite mode
+DONE:
+- add mistake counter
+- add time
+- difference between auto generated cells and user filled cells
+- make it so you cannot edit correct cells
+- add ending to game
+- connected it to my phone
+- make it mobile friendly
+- add difficulty options (easy, medium, hard)
+- add sudoku notes
+- clear notes based on whether a number has been input
+- add numberRemove method to remove numbers from incorrect spaces
+- numbers correctly coloured when autofilling
+- when selecting a cell, other numbers with that same cell are also highlighted
+- make it o you cant delete correct cells
+- add seperate buttons for solveBoard, notes, numberRemove under
+- grid lookup slow as using string instead of integer
+- add score
+- infinite three lives mode
+- change the way the same number is highlighted (may just change  text colour? )
+
+
