@@ -281,4 +281,18 @@ void replaceWithSolvedBoard(SudokuBoard board, List<List<int>> solvedData, Set<i
     }
   }
 }
+
+bool isNumberSolved(int number) {
+  int count = 0;
+
+  for (int r = 0; r < 9; r++) {
+    for (int c = 0; c < 9; c++) {
+      if (board[r][c] == number) {
+        count++;
+      }
+    }
+  }
+
+  return count == 9;
+}
 }
